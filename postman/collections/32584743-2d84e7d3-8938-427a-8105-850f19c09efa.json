@@ -175930,7 +175930,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"jdbc\": \"jdbc:postgresql://172.18.181.33:5433/klik_order_xpress\", //UAT\n    \"username\": \"klikapps\",\n    \"password\": \"Klik4pps4dm4aplk@s!0nlyEdts*321!\",\n    \"classname\": \"{{database_classname}}\",\n    \"query\": \"SELECT booking_req_json, inquiry_res_json from klik_order_xpress.app.order_integration_log oil where sales_order_no = 'A1S4CDFGU1'\"\n}",
+							"raw": "{\n    \"jdbc\": \"jdbc:postgresql://172.18.181.33:5433/klik_order_xpress\", //UAT\n    \"username\": {{DB_Username}},\n    \"password\": \"Klik4pps4dm4aplk@s!0nlyEdts*321!\",\n    \"classname\": \"{{database_classname}}\",\n    \"query\": \"SELECT booking_req_json, inquiry_res_json from klik_order_xpress.app.order_integration_log oil where sales_order_no = 'A1S4CDFGU1'\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -181282,6 +181282,11 @@
 			"key": "SOupdate",
 			"value": "A1Q2C08S7S",
 			"type": "string"
+		},
+		{
+			"key": "DB_Username",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
