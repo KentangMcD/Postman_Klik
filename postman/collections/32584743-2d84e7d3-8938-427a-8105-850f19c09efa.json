@@ -181287,6 +181287,11 @@
 			"key": "DB_Username",
 			"value": "",
 			"type": "default"
+		},
+		{
+			"key": "DB_Password",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
