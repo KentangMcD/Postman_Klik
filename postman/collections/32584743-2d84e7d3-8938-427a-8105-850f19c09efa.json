@@ -176833,7 +176833,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"jdbc\": \"jdbc:postgresql://172.18.181.33:5433/klik_customer\", //UAT\n    \"username\": \"klikapps\",\n    \"password\": \"Klik4pps4dm4aplk@s!0nlyEdts*321!\",\n    \"classname\": \"{{database_classname}}\",\n    \"query\": \"Select * from klik_customer.app.customer where phone_number = '089632725245';\"\n}",
+							"raw": "{\n    \"jdbc\": \"jdbc:postgresql://172.18.181.33:5433/klik_customer\", //UAT\n    \"username\": {{DB_Username}},\n    \"password\": {{DB_Password}},\n    \"classname\": \"{{database_classname}}\",\n    \"query\": \"Select * from klik_customer.app.customer where phone_number = '089632725245';\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
