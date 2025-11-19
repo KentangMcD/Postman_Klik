@@ -175778,7 +175778,8 @@
 									""
 								],
 								"type": "text/javascript",
-								"packages": {}
+								"packages": {},
+								"requests": {}
 							}
 						},
 						{
@@ -175899,7 +175900,8 @@
 									""
 								],
 								"type": "text/javascript",
-								"packages": {}
+								"packages": {},
+								"requests": {}
 							}
 						}
 					],
@@ -175936,12 +175938,13 @@
 							}
 						},
 						"url": {
-							"raw": "103.103.30.83:8866/getresult",
+							"raw": "http://138.252.65.70:8866/getresult",
+							"protocol": "http",
 							"host": [
-								"103",
-								"103",
-								"30",
-								"83"
+								"138",
+								"252",
+								"65",
+								"70"
 							],
 							"port": "8866",
 							"path": [
